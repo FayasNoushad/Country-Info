@@ -30,7 +30,7 @@ def main():
     again = input("If you need to country information again?\ny for yes n for no\n:- ")
     if again.lower() == "n":
         print("\nThanks for using")
-        break
+        return
     else:
         print("")
         return main()
